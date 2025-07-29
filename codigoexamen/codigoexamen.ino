@@ -150,6 +150,7 @@ void GR5_ProcesarConfiguracion(String configStr) {
   GR5_ImprimirConfiguracionActual();
 }
 
+//Parte de Pinos Abraham
 /**
  * Imprime la configuración actual por el puerto serial
  */
