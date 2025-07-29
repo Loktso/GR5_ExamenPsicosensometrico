@@ -165,7 +165,7 @@ void GR5_ImprimirConfiguracionActual() {
   Serial.print(", VEL:");
   Serial.println(GR5_configActual.velocidad);
 }
-
+//Parte de Erick Peña
 /**
  * Genera un estímulo combinado aleatorio, asegurando que en los primeros
  * 5 estímulos aparezca al menos una vez la combinación correcta
@@ -267,6 +267,7 @@ void GR5_ActivarEstimulos(bool activarLed, bool activarBuzzer, int intensidadLed
   }
 }
 
+//Parte de Erick Peña
 /**
  * Espera la respuesta del usuario durante el tiempo especificado
  * @param duracion Tiempo máximo de espera en ms
