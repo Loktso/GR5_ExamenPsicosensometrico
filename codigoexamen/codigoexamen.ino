@@ -230,6 +230,7 @@ void GR5_GenerarEstimuloCombinado() {
   delay(200);
 }
 
+//Parte de Wilman Perugachi
 // ==================== MÉTODOS AUXILIARES ====================
 
 /**
