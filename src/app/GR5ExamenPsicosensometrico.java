@@ -830,6 +830,15 @@ private void configurarCombobox() {
     private void btnGR5IniciarSesionActionPerformed(java.awt.event.ActionEvent evt) {//GEN-FIRST:event_btnGR5IniciarSesionActionPerformed
         if (puertoGR5Seleccionado != null && puertoGR5Seleccionado.isOpen()) {
         try {
+          
+            contadorGR5Aciertos = 0;
+            contadorGR5Errores = 0;
+            sumaTiemposReaccionGR5 = 0;
+            lblGR5Aciertos.setText("0");
+            lblGR5Errores.setText("0");
+            lblGR5TiempoReaccion.setText("—");
+           
+
             puertoGR5Seleccionado.getOutputStream().write("INICIAR\n".getBytes());
             puertoGR5Seleccionado.getOutputStream().flush();
             System.out.println("📤 Comando 'INICIAR' enviado a Arduino");
