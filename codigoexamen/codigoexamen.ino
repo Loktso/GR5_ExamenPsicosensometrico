@@ -47,6 +47,7 @@ bool GR5_estimuloActualEsCorrecto = false;  // Estado del estímulo actual
 // Tiempos de duración según velocidad (ms)
 const int GR5_TIEMPOS_VELOCIDAD[3] = {3000, 2000, 1000}; // Lento, Medio, Rápido
 
+//Parte de Abraham Pinos
 // ==================== CONFIGURACIÓN INICIAL ====================
 void setup() {
   // Inicializar comunicación serial
