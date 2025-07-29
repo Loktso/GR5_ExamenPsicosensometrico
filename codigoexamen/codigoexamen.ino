@@ -1,7 +1,7 @@
 /* ====================================================
  * PROYECTO: GR5_ExamenPsicosensometrico
  * VERSIÓN: 2.1
- * AUTOR: [Grupo 5: Peña Erick, Pinos Abrahan]
+ * AUTOR: [Grupo 5: Peña Erick, Pinos Abrahan, Wilman Perugachi]
  * DESCRIPCIÓN: Sistema de prueba psicosensometrico con 
  *              configuración dinámica desde Java
  * ====================================================
@@ -250,6 +250,7 @@ void GR5_GenerarEstimuloAleatorio(bool* activarLed, bool* activarBuzzer, int* in
   if (*activarBuzzer && GR5_configActual.intensidadCorrectaBuzzer != *intensidadBuzzer) GR5_estimuloActualEsCorrecto = false;
 }
 
+//Parte de Wilman Perugachi
 /**
  * Activa los estímulos físicos según los parámetros
  */
